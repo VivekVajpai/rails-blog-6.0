@@ -1,7 +1,7 @@
 @import 'bootstrap/dist/css/bootstrap';
 
 .navbar {
-	background-color: #FDF6EA !important;
+	background-color: black !important;
 }
 
 .navbar-brand {
@@ -10,4 +10,46 @@
 
 h1 {
 	color: red;
+}
+
+.nav-link {
+	color: white !important;
+}
+
+#logo {
+	float: left;
+	font-size: 1.7em;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+#home-container {
+	margin-top: 100px;
+}
+
+.jumbotron {
+	background-image: asset-url('Blog_Jumbotron.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 425px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightgrey;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
 }
